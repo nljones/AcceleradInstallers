@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AcceleradSetup", "AcceleradSetup\AcceleradSetup.vdproj", "{6AA08CCD-3D79-4823-A35F-F4F0F13BC455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceleradSetupHelper", "AcceleradSetupHelper\AcceleradSetupHelper.csproj", "{0FD4E72C-4471-4D74-AD26-14B1A1D38CA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AA08CCD-3D79-4823-A35F-F4F0F13BC455}.Debug|Any CPU.ActiveCfg = Debug
+		{6AA08CCD-3D79-4823-A35F-F4F0F13BC455}.Debug|Any CPU.Build.0 = Debug
+		{6AA08CCD-3D79-4823-A35F-F4F0F13BC455}.Release|Any CPU.ActiveCfg = Release
+		{6AA08CCD-3D79-4823-A35F-F4F0F13BC455}.Release|Any CPU.Build.0 = Release
+		{0FD4E72C-4471-4D74-AD26-14B1A1D38CA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD4E72C-4471-4D74-AD26-14B1A1D38CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD4E72C-4471-4D74-AD26-14B1A1D38CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD4E72C-4471-4D74-AD26-14B1A1D38CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

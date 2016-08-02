@@ -6,6 +6,8 @@ using System.Configuration.Install;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Security.AccessControl;
+using System.Security.Principal;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -89,6 +91,8 @@ namespace AcceleradSetupHelper
 
             SetTDR();
 
+            GrantAccess(InstallPath);
+
             BroadcastEnvironment();
             System.Diagnostics.Process.Start("http://mit.edu/sustainabledesignlab/projects/Accelerad/welcome.html");
             //System.Diagnostics.Process.Start(InstallPath + Path.DirectorySeparatorChar + "README.pdf");
@@ -127,16 +131,22 @@ namespace AcceleradSetupHelper
             BroadcastEnvironment();
         }
 
-        private static void DeleteFile(string path)
+        /// <summary>
+        /// Delete a file.
+        /// </summary>
+        /// <param name="path">Path to file</param>
+        /// <returns>Success</returns>
+        private static bool DeleteFile(string path)
         {
             try
             {
                 File.Delete(path);
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                // Give up
+                return false;
             }
+            return true;
         }
 
         private static RegistryKey GetEnvironmentKey(bool allUsers, bool writable)
@@ -189,7 +199,7 @@ namespace AcceleradSetupHelper
             {
                 paths.Insert(".".Equals(paths[0].Trim()) ? 1 : 0, item);
             }
-            catch (System.ArgumentOutOfRangeException e)
+            catch (System.ArgumentOutOfRangeException)
             {
                 paths.Add(item);
             }
@@ -208,7 +218,7 @@ namespace AcceleradSetupHelper
                         paths.RemoveAt(i);
                         return string.Join(";", paths.ToArray());
                     }
-                    catch (Exception e)
+                    catch (Exception)
                     {
                         return list;
                     }
@@ -218,11 +228,15 @@ namespace AcceleradSetupHelper
             return list;
         }
 
-        private void SetTDR()
+        /// <summary>
+        /// Set the TDR timeout
+        /// </summary>
+        /// <returns>Success</returns>
+        private bool SetTDR()
         {
             int option = 0;
             Int32.TryParse(Context.Parameters["tdr"], out option);
-            if (option <= 1) return;
+            if (option <= 1) return true;
 
             int delay = 2;
             int level = 3;
@@ -247,10 +261,32 @@ namespace AcceleradSetupHelper
                     reg.SetValue("TdrLevel", level, RegistryValueKind.DWord);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                // No action
+                return false;
             }
+            return true;
+        }
+
+        /// <summary>
+        /// From http://stackoverflow.com/questions/9108399/how-to-grant-full-permission-to-a-file-created-by-my-application-for-all-users
+        /// </summary>
+        /// <param name="path">Path to file or directory</param>
+        /// <returns>Success</returns>
+        private static bool GrantAccess(string path)
+        {
+            try
+            {
+                DirectoryInfo dInfo = new DirectoryInfo(path);
+                DirectorySecurity dSecurity = dInfo.GetAccessControl();
+                dSecurity.AddAccessRule(new FileSystemAccessRule(new SecurityIdentifier(WellKnownSidType.WorldSid, null), FileSystemRights.FullControl, InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.None, AccessControlType.Allow));
+                dInfo.SetAccessControl(dSecurity);
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
         }
 
         /// <summary>

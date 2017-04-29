@@ -87,6 +87,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_655ABCD0F0954BED988B42E476B9C10F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6F794AA8E2694FE7BBEE05FFEB98A2BE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -117,6 +123,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_86F75B14554D477EAD58DB716125ECCC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_88B62E8FF4F9442CB49F2E14EDC9AF18"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -124,6 +136,12 @@
         "Entry"
         {
         "MsmKey" = "8:_913B8DF2C928494DB8BAB5611AB2FE2B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_965B1BA78CCD42BFA224C39BFC5CF8E1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -148,6 +166,12 @@
         "Entry"
         {
         "MsmKey" = "8:_AD6152C6213141868BC42629B99D5C1A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ADFBA983F3674F1FAE0D501F1F96656C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -189,6 +213,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_CBC0CC235774415E8CD6CE8B2AD453F4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_CC2FBED6FF384688AFC4F2D92F60D53B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -202,6 +232,18 @@
         "Entry"
         {
         "MsmKey" = "8:_D4B2F91E542440DB95FC5C7FE84EA38E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E97931E8116B47FA86872192AB6FDD33"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EB6B517AD658429AAD46FD0AA3B383C4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -226,6 +268,12 @@
         "Entry"
         {
         "MsmKey" = "8:_FE89F2BDBCC9402B8E800B8CBBEDC89F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FF504841EFB94A2EA3CF8FA5361C3305"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -627,6 +675,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_655ABCD0F0954BED988B42E476B9C10F"
+            {
+            "SourcePath" = "8:..\\..\\releases\\Accelerad_0_beta\\test_accelerad_rcontrib.bat"
+            "TargetName" = "8:test_accelerad_rcontrib.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6F794AA8E2694FE7BBEE05FFEB98A2BE"
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_sensor.cu.ptx"
@@ -727,6 +795,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_86F75B14554D477EAD58DB716125ECCC"
+            {
+            "SourcePath" = "8:..\\..\\Radiance\\src\\util\\genBSDF.pl"
+            "TargetName" = "8:accelerad_genBSDF.pl"
+            "Tag" = "8:"
+            "Folder" = "8:_3A9D90286BD74315A41F036BAF90CE10"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_88B62E8FF4F9442CB49F2E14EDC9AF18"
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_background.cu.ptx"
@@ -751,6 +839,26 @@
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_perezlum.cu.ptx"
             "TargetName" = "8:cuda_compile_ptx_generated_perezlum.cu.ptx"
+            "Tag" = "8:"
+            "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_965B1BA78CCD42BFA224C39BFC5CF8E1"
+            {
+            "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_rcontrib_generator.cu.ptx"
+            "TargetName" = "8:cuda_compile_ptx_generated_rcontrib_generator.cu.ptx"
             "Tag" = "8:"
             "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
             "Condition" = "8:"
@@ -833,6 +941,26 @@
             "TargetName" = "8:test_accelerad_rpict.bat"
             "Tag" = "8:"
             "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ADFBA983F3674F1FAE0D501F1F96656C"
+            {
+            "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_reinhart.cu.ptx"
+            "TargetName" = "8:cuda_compile_ptx_generated_reinhart.cu.ptx"
+            "Tag" = "8:"
+            "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -967,6 +1095,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CBC0CC235774415E8CD6CE8B2AD453F4"
+            {
+            "SourcePath" = "8:..\\..\\Radiance64\\bin\\Release\\rfluxmtx.exe"
+            "TargetName" = "8:accelerad_rfluxmtx.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_3A9D90286BD74315A41F036BAF90CE10"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CC2FBED6FF384688AFC4F2D92F60D53B"
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_isotropsky.cu.ptx"
@@ -991,7 +1139,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AcceleradSetupHelper, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:AcceleradSetupHelper, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
                     "_D20F7E83B5054A19ADD641D075944A43"
@@ -1022,6 +1170,46 @@
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_ambient_normal.cu.ptx"
             "TargetName" = "8:cuda_compile_ptx_generated_ambient_normal.cu.ptx"
+            "Tag" = "8:"
+            "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E97931E8116B47FA86872192AB6FDD33"
+            {
+            "SourcePath" = "8:..\\..\\Radiance64\\bin\\Release\\rcontrib.exe"
+            "TargetName" = "8:accelerad_rcontrib.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_3A9D90286BD74315A41F036BAF90CE10"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EB6B517AD658429AAD46FD0AA3B383C4"
+            {
+            "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_klems_full.cu.ptx"
+            "TargetName" = "8:cuda_compile_ptx_generated_klems_full.cu.ptx"
             "Tag" = "8:"
             "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
             "Condition" = "8:"
@@ -1102,6 +1290,26 @@
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_sensor_cloud_generator.cu.ptx"
             "TargetName" = "8:cuda_compile_ptx_generated_sensor_cloud_generator.cu.ptx"
+            "Tag" = "8:"
+            "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FF504841EFB94A2EA3CF8FA5361C3305"
+            {
+            "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_tregenza.cu.ptx"
+            "TargetName" = "8:cuda_compile_ptx_generated_tregenza.cu.ptx"
             "Tag" = "8:"
             "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
             "Condition" = "8:"

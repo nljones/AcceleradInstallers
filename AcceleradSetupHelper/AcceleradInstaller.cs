@@ -103,8 +103,9 @@ namespace AcceleradSetupHelper
             base.Uninstall(savedState);
 
             // Delete the test files if they were created
-            DeleteFile(InstallPath + Path.DirectorySeparatorChar + "demo" + Path.DirectorySeparatorChar + "test.hdr");
-            DeleteFile(InstallPath + Path.DirectorySeparatorChar + "demo" + Path.DirectorySeparatorChar + "test.txt");
+            DeleteFile(InstallPath + Path.DirectorySeparatorChar + "demo" + Path.DirectorySeparatorChar + "test_rpict.hdr");
+            DeleteFile(InstallPath + Path.DirectorySeparatorChar + "demo" + Path.DirectorySeparatorChar + "test_rtrace.txt");
+            DeleteFile(InstallPath + Path.DirectorySeparatorChar + "demo" + Path.DirectorySeparatorChar + "test_rcontrib.txt");
 
             foreach (Variable target in TargetValues)
             {

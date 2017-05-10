@@ -94,7 +94,7 @@ namespace AcceleradSetupHelper
             GrantAccess(InstallPath);
 
             BroadcastEnvironment();
-            System.Diagnostics.Process.Start("http://mit.edu/sustainabledesignlab/projects/Accelerad/welcome.html");
+            System.Diagnostics.Process.Start("https://nljones.github.io/Accelerad/welcome.html");
             //System.Diagnostics.Process.Start(InstallPath + Path.DirectorySeparatorChar + "README.pdf");
         }
 

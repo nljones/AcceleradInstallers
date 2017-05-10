@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_066A69F13E194C1B91BB5C843A45B41F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0951E390C6864830B351AAD5A9B12E40"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -22,6 +28,12 @@
         "Entry"
         {
         "MsmKey" = "8:_098BCA047A1C4F1A824DEB75051FFE2B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0C14F9A7351B4408AF41461D76F953B3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -45,13 +57,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_33BED65212D04DEAA1B489519B9C476B"
+        "MsmKey" = "8:_3583323E096E4154887DE56332C6389C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_341D519C0F7C4E9984C2AE5DD737DBD4"
+        "MsmKey" = "8:_4106F0BA4DDD4367B5C0E32C8E2D136B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -64,6 +76,12 @@
         "Entry"
         {
         "MsmKey" = "8:_4C19398A20AB42C2A5D69CFB28F91563"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_56E89874E57D4B9ABCE703B79B2980F0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -87,25 +105,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_655ABCD0F0954BED988B42E476B9C10F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_6F794AA8E2694FE7BBEE05FFEB98A2BE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7665A8907ACF4713B19072B59BDB013E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7F0E87654F1C444B892C7DC4D87EBD01"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -147,7 +147,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9B67C244FAAE4532A0C8DEB80B3D94F3"
+        "MsmKey" = "8:_A390B01804F14ADA87B7CE60D9B8D58F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -165,12 +165,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_AD6152C6213141868BC42629B99D5C1A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_ADFBA983F3674F1FAE0D501F1F96656C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -183,13 +177,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BF6BB077C50B436F880DE883FD1995D3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C5AF1B65FD004D7580BA4EABA60AEF47"
+        "MsmKey" = "8:_BB211CEDE2BA46E7A93A6AA32D1703E2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -231,6 +219,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_D2B8E10892F94DC896DB14A1FCC31758"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_D4B2F91E542440DB95FC5C7FE84EA38E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -249,7 +243,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_EBB74B4CACBB4785833AA7FB6E0BA6C4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_EC0300300D734582AACE08EBA37CE16F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F1B1CD81F81C416FBBDEBB2702596E94"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -435,6 +441,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_066A69F13E194C1B91BB5C843A45B41F"
+            {
+            "SourcePath" = "8:..\\license\\Accelerad_EULA.rtf"
+            "TargetName" = "8:Accelerad_EULA.rtf"
+            "Tag" = "8:"
+            "Folder" = "8:_8C569439C87C4ED9890D78250655BD8B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0951E390C6864830B351AAD5A9B12E40"
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_utah.cu.ptx"
@@ -461,6 +487,26 @@
             "TargetName" = "8:cuda_compile_ptx_generated_ambient_sample_generator.cu.ptx"
             "Tag" = "8:"
             "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C14F9A7351B4408AF41461D76F953B3"
+            {
+            "SourcePath" = "8:..\\license\\CUDA_EULA.pdf"
+            "TargetName" = "8:CUDA_EULA.pdf"
+            "Tag" = "8:"
+            "Folder" = "8:_8C569439C87C4ED9890D78250655BD8B"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -535,12 +581,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_33BED65212D04DEAA1B489519B9C476B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3583323E096E4154887DE56332C6389C"
             {
-            "SourcePath" = "8:C:\\ProgramData\\NVIDIA Corporation\\OptiX SDK 4.0.0\\doc\\OptiX_EndUserLicense.pdf"
-            "TargetName" = "8:OptiX_EndUserLicense.pdf"
+            "SourcePath" = "8:..\\demo\\test_accelerad_rpict.bat"
+            "TargetName" = "8:test_accelerad_rpict.bat"
             "Tag" = "8:"
-            "Folder" = "8:_8C569439C87C4ED9890D78250655BD8B"
+            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -555,10 +601,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_341D519C0F7C4E9984C2AE5DD737DBD4"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4106F0BA4DDD4367B5C0E32C8E2D136B"
             {
-            "SourcePath" = "8:..\\..\\releases\\Accelerad_0_beta\\test.inp"
-            "TargetName" = "8:test.inp"
+            "SourcePath" = "8:..\\demo\\test.oct"
+            "TargetName" = "8:test.oct"
             "Tag" = "8:"
             "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
             "Condition" = "8:"
@@ -601,6 +647,26 @@
             "TargetName" = "8:cuda_compile_ptx_generated_radiance_light.cu.ptx"
             "Tag" = "8:"
             "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_56E89874E57D4B9ABCE703B79B2980F0"
+            {
+            "SourcePath" = "8:..\\demo\\test_accelerad_rtrace.bat"
+            "TargetName" = "8:test_accelerad_rtrace.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -675,72 +741,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_655ABCD0F0954BED988B42E476B9C10F"
-            {
-            "SourcePath" = "8:..\\..\\releases\\Accelerad_0_beta\\test_accelerad_rcontrib.bat"
-            "TargetName" = "8:test_accelerad_rcontrib.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6F794AA8E2694FE7BBEE05FFEB98A2BE"
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_sensor.cu.ptx"
             "TargetName" = "8:cuda_compile_ptx_generated_sensor.cu.ptx"
             "Tag" = "8:"
             "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7665A8907ACF4713B19072B59BDB013E"
-            {
-            "SourcePath" = "8:..\\..\\releases\\Accelerad_0_beta\\test.oct"
-            "TargetName" = "8:test.oct"
-            "Tag" = "8:"
-            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7F0E87654F1C444B892C7DC4D87EBD01"
-            {
-            "SourcePath" = "8:..\\..\\releases\\Accelerad_0_beta\\Accelerad_EULA.rtf"
-            "TargetName" = "8:Accelerad_EULA.rtf"
-            "Tag" = "8:"
-            "Folder" = "8:_8C569439C87C4ED9890D78250655BD8B"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -875,12 +881,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9B67C244FAAE4532A0C8DEB80B3D94F3"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A390B01804F14ADA87B7CE60D9B8D58F"
             {
-            "SourcePath" = "8:..\\..\\releases\\Accelerad_0_beta\\test_accelerad_rtrace.bat"
-            "TargetName" = "8:test_accelerad_rtrace.bat"
+            "SourcePath" = "8:..\\license\\OptiX_EndUserLicense.pdf"
+            "TargetName" = "8:OptiX_EndUserLicense.pdf"
             "Tag" = "8:"
-            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
+            "Folder" = "8:_8C569439C87C4ED9890D78250655BD8B"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -935,26 +941,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AD6152C6213141868BC42629B99D5C1A"
-            {
-            "SourcePath" = "8:..\\..\\releases\\Accelerad_0_beta\\test_accelerad_rpict.bat"
-            "TargetName" = "8:test_accelerad_rpict.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ADFBA983F3674F1FAE0D501F1F96656C"
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_reinhart.cu.ptx"
@@ -995,32 +981,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BF6BB077C50B436F880DE883FD1995D3"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BB211CEDE2BA46E7A93A6AA32D1703E2"
             {
-            "SourcePath" = "8:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v7.5\\doc\\pdf\\EULA.pdf"
-            "TargetName" = "8:CUDA_EULA.pdf"
+            "SourcePath" = "8:..\\demo\\test.inp"
+            "TargetName" = "8:test.inp"
             "Tag" = "8:"
-            "Folder" = "8:_8C569439C87C4ED9890D78250655BD8B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5AF1B65FD004D7580BA4EABA60AEF47"
-            {
-            "SourcePath" = "8:..\\..\\releases\\Accelerad_0_beta\\README.pdf"
-            "TargetName" = "8:README.pdf"
-            "Tag" = "8:"
-            "Folder" = "8:_8C569439C87C4ED9890D78250655BD8B"
+            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1166,6 +1132,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D2B8E10892F94DC896DB14A1FCC31758"
+            {
+            "SourcePath" = "8:..\\README.pdf"
+            "TargetName" = "8:README.pdf"
+            "Tag" = "8:"
+            "Folder" = "8:_8C569439C87C4ED9890D78250655BD8B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D4B2F91E542440DB95FC5C7FE84EA38E"
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_ambient_normal.cu.ptx"
@@ -1226,12 +1212,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EBB74B4CACBB4785833AA7FB6E0BA6C4"
+            {
+            "SourcePath" = "8:..\\..\\Radiance\\src\\rt\\rayinit.cal"
+            "TargetName" = "8:rayinit.cal"
+            "Tag" = "8:"
+            "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EC0300300D734582AACE08EBA37CE16F"
             {
             "SourcePath" = "8:..\\..\\Radiance64\\src\\rt\\cuda_compile_ptx_generated_triangle_mesh.cu.ptx"
             "TargetName" = "8:cuda_compile_ptx_generated_triangle_mesh.cu.ptx"
             "Tag" = "8:"
             "Folder" = "8:_6864595AC77A459CBB58E6E27AEA787B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F1B1CD81F81C416FBBDEBB2702596E94"
+            {
+            "SourcePath" = "8:..\\demo\\test_accelerad_rcontrib.bat"
+            "TargetName" = "8:test_accelerad_rcontrib.bat"
+            "Tag" = "8:"
+            "Folder" = "8:_E47DA8F7B87D45439D52CB0B9FC202A2"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1638,7 +1664,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:_7F0E87654F1C444B892C7DC4D87EBD01"
+                            "Value" = "8:_066A69F13E194C1B91BB5C843A45B41F"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "Sunken"
@@ -2109,7 +2135,7 @@
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
                             "Setting" = "3:2"
-                            "Value" = "8:_7F0E87654F1C444B892C7DC4D87EBD01"
+                            "Value" = "8:_066A69F13E194C1B91BB5C843A45B41F"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "Sunken"

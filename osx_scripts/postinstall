@@ -1,0 +1,4 @@
+#!/bin/sh
+
+open https://nljones.github.io/Accelerad/welcome.html
+exit 0

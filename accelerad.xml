@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="2">
+    <title>Accelerad</title>
+    <license file="license/Accelerad_EULA.rtf" mime-type="application/rtf"/>
+    <conclusion file="edit_path.rtf" mime-type="application/rtf"/>
+
+    <pkg-ref id="com.mit.accelerad"/>
+    <options customize="never" require-scripts="false"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.mit.accelerad"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.mit.accelerad" visible="false">
+        <pkg-ref id="com.mit.accelerad"/>
+    </choice>
+    <pkg-ref id="com.mit.accelerad" version="0.6" onConclusion="none">AcceleradPkg.pkg</pkg-ref>
+</installer-gui-script>

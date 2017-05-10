@@ -1,4 +1,19 @@
+# Windows output folders
 */bin/*
 */obj/*
 */Debug/*
 */Release/*
+
+# Mac/Linux intermediate folders
+*_mac/*
+*_linux/*
+
+# Mac/Linux output files
+.DS_Store
+*.pkg
+*.dmg
+*.gz
+
+# Test output files
+test*.hdr
+test*.txt

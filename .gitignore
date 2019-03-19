@@ -4,6 +4,10 @@
 */Debug/*
 */Release/*
 
+# Windows output files
+*.exe
+*.msi
+
 # Mac/Linux intermediate folders
 *_mac/*
 *_linux/*

@@ -4,7 +4,7 @@ accelerad_rcontrib -version
 if errorlevel 1 goto FAILURE
 set out=test_rcontrib.txt
 if exist %out% del %out%
-accelerad_rcontrib -h -lr 8 -lw .002 -x 5 -y 5 -t 1.5 -m sky_mat test.oct < test.inp > %out%
+accelerad_rcontrib -h -lr 8 -lw .002 -x 5 -y 5 -m sky_mat test.oct < test.inp > %out%
 if errorlevel 1 goto FAILURE
 if not exist %out% goto FAILURE
 for %%a in (%out%) do set length=%%~za

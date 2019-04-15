@@ -8,6 +8,8 @@
 
 !include "${NSISDir}\Contrib\Modern UI\System.nsh" ; for license
 ;!include WinMessages.nsh ; for Environment Variable update
+!include logiclib.nsh ; for AcceleradRT optional files
+!include sections.nsh ; for AcceleradRT optional files
 
 !addplugindir /x86-ansi "${NSISDir}\EnVar_plugin\Plugins\x86-ansi" ; for Environmetn Variables
 !addplugindir /x86-unicode "${NSISDir}\EnVar_plugin\Plugins\x86-unicode"
@@ -95,7 +97,7 @@ Section "${ProductName} (required)"
   ; Populate the main directory.
   SetOutPath $INSTDIR
   File "license\Accelerad_EULA.rtf"
-  File "license\AcceleradRT_EULA.rtf"
+  File "README.pdf"
   
   ; Populate the bin directory.
   SetOutPath $INSTDIR\bin
@@ -104,18 +106,13 @@ Section "${ProductName} (required)"
   File /oname=accelerad_rfluxmtx.exe "${BuildDir}\bin\Release\rfluxmtx.exe"
   File /oname=accelerad_rpict.exe "${BuildDir}\bin\Release\rpict.exe"
   File /oname=accelerad_rtrace.exe "${BuildDir}\bin\Release\rtrace.exe"
-  File /oname=AcceleradRT.exe "${BuildDir}\bin\Release\qwtrvu.exe"
-  File "${BuildDir}\bin\Release\qt.conf" ; for AcceleradRT
-  File /r "${BuildDir}\bin\Release\*.dll"
-  
-  ; Populate the Qt plugins directory.
-  SetOutPath $INSTDIR\bin\plugins
-  File /r "${BuildDir}\bin\Release\plugins\*" ; for AcceleradRT
+  File "${BuildDir}\bin\Release\cudart64_*.dll"
+  File "${BuildDir}\bin\Release\optix.*.dll"
   
   ; Populate the lib directory.
   SetOutPath $INSTDIR\lib
-  File /r /x "*.cu.ptx" /x "fisheye.ptx" "${BuildDir}\src\rt\*.ptx"
-  File "${SourceDir}\src\rt\rayinit.cal" ; required in case Radiance is not installed
+  File /r /x "fisheye.ptx" /x "rvu.ptx" /x "material_diffuse.ptx" "${BuildDir}\lib\*.ptx"
+  File "${BuildDir}\lib\rayinit.cal" ; required in case Radiance is not installed
   
   ; Write the installation path into the registry
   WriteRegStr HKLM SOFTWARE\${ProductName} "Install_Dir" "$INSTDIR"
@@ -167,6 +164,30 @@ Section "${ProductName} (required)"
   
 SectionEnd
 
+; Install AcceleradRT
+Section "AcceleradRT" ART
+ 
+  ; Populate the main directory.
+  SetOutPath $INSTDIR
+  File "license\AcceleradRT_EULA.rtf"
+  
+  ; Populate the bin directory.
+  SetOutPath $INSTDIR\bin
+  File /oname=AcceleradRT.exe "${BuildDir}\bin\Release\qwtrvu.exe"
+  File "${BuildDir}\bin\Release\qt.conf" ; for AcceleradRT
+  File /r /x "cudart64_*.dll" /x "optix.*.dll" "${BuildDir}\bin\Release\*.dll"
+  
+  ; Populate the Qt plugins directory.
+  SetOutPath $INSTDIR\bin\plugins
+  File /r "${BuildDir}\bin\Release\plugins\*" ; for AcceleradRT
+  
+  ; Populate the lib directory.
+  SetOutPath $INSTDIR\lib
+  File "${BuildDir}\lib\rvu.ptx"
+  File "${BuildDir}\lib\material_diffuse.ptx"
+  
+SectionEnd
+
 ; Install the demo files
 Section "Demo Files"
  
@@ -185,8 +206,10 @@ SectionEnd
 Section "Start Menu Shortcuts"
 
   CreateDirectory "$SMPROGRAMS\${ProductName}"
-  CreateShortcut "$SMPROGRAMS\${ProductName}\Uninstall.lnk" "$INSTDIR\uninstall.exe" "" "$INSTDIR\uninstall.exe" 0
+  CreateShortcut "$SMPROGRAMS\${ProductName}\Uninstall ${ProductName}.lnk" "$INSTDIR\uninstall.exe" "" "$INSTDIR\uninstall.exe" 0
+  ${If} ${SectionIsSelected} ${ART}
   CreateShortcut "$SMPROGRAMS\${ProductName}\AcceleradRT.lnk" "$INSTDIR\bin\AcceleradRT.exe" "" "$INSTDIR\bin\AcceleradRT.exe" 0
+  ${EndIf}
   
 SectionEnd
 

@@ -3,16 +3,16 @@
 
 # Set names
 major="0"
-minor="6"
+minor="7"
 target="accelerad_$major$minor"
 if [[ $OSTYPE == darwin* ]]; then
     target+="_beta_mac"
     archive="$target.dmg"
-    nest="$target/accelerad"
+    nest="$(pwd)/$target/accelerad"
 else
     target+="_beta_linux"
     archive="$target.tar.gz"
-    nest="$target/usr/local/accelerad"
+    nest="$(pwd)/$target/usr/local/accelerad"
 fi
 bin="$nest/bin"
 lib="$nest/lib"
@@ -39,6 +39,8 @@ echo "LD_LIBRARY_PATH = $LD_LIBRARY_PATH"
 echo "RAYPATH = $RAYPATH"
 
 # Run tests
-bash $demo/test_accelerad_rpict.sh
-bash $demo/test_accelerad_rtrace.sh
-bash $demo/test_accelerad_rcontrib.sh
+pushd $demo
+bash test_accelerad_rpict.sh
+bash test_accelerad_rtrace.sh
+bash test_accelerad_rcontrib.sh
+popd

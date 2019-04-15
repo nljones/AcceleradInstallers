@@ -5,24 +5,30 @@
 
 # Set names
 major="0"
-minor="6"
+minor="7"
 target="accelerad_$major$minor"
+
+# Set library versions
+cuda="10.1"
+optix="6.0.0"
 if [[ $OSTYPE == darwin* ]]; then
     target+="_beta_mac"
     archive="$target.dmg"
     nest="$target/accelerad"
     accelerad_src=~/Accelerad/src
     accelerad_bin=~/Accelerad64/bin/Release
-    optix_lib=/Developer/OptiX/lib64/liboptix.1.dylib
-    cuda_lib=/Developer/NVIDIA/CUDA-7.5/lib/libcudart.7.5.dylib
+    accelerad_lib=~/Accelerad64/lib
+    optix_lib=/Developer/OptiX/lib64/liboptix.$optix.dylib
+    cuda_lib=/Developer/NVIDIA/CUDA-$cuda/lib/libcudart.$cuda.dylib
 else
     target+="_beta_linux"
     archive="$target.tar.gz"
     nest="$target/usr/local/accelerad"
-    accelerad_src=~/Accelerad/src
-    accelerad_bin=~/Accelerad64/bin
-    optix_lib=~/NVIDIA-OptiX-SDK-3.9.1-linux64/lib64/liboptix.so.1
-    cuda_lib=/usr/local/cuda-7.5/lib64/libcudart.so.7.5
+    accelerad_src=/media/nathaniel/DATA/Accelerad/src
+    accelerad_bin=/media/nathaniel/DATA/AcceleradLinux/bin
+    accelerad_lib=/media/nathaniel/DATA/AcceleradLinux/lib
+    optix_lib=~/NVIDIA-OptiX-SDK-$optix-linux64/lib64/liboptix.so.$optix
+    cuda_lib=/usr/local/cuda-$cuda/lib64/libcudart.so.$cuda
 fi
 bin="$nest/bin"
 lib="$nest/lib"
@@ -43,9 +49,9 @@ cp $optix_lib $bin
 cp $cuda_lib $bin
 
 # Populate lib directory
-cp ~/Accelerad64/src/rt/*.ptx $lib
-rm -f $lib/cuda_compile_ptx_generated_{fisheye,diffuse_normal,rvu_generator}.cu.ptx
-cp $accelerad_src/rt/rayinit.cal $lib
+cp $accelerad_lib/*.ptx $lib
+rm -f $lib/{fisheye,material_diffuse,rvu}.ptx
+cp $accelerad_lib/rayinit.cal $lib
 
 # Populate demo directory
 cp demo/test.oct $demo
@@ -56,8 +62,8 @@ cp demo/test_accelerad_rcontrib.sh $demo
 
 # Populate parent directory
 cp license/license.txt $nest
-cp license/OptiX_EndUserLicense.pdf $nest
-cp license/CUDA_EULA.pdf $nest
+#cp license/OptiX_EndUserLicense.pdf $nest
+#cp license/CUDA_EULA.pdf $nest
 cp README.pdf $nest
 
 # Create package
